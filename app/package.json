@@ -1,0 +1,12 @@
+{
+  "name": "wealth-graph",
+  "description": "WG",
+  "author": {
+    "name": "Patrik J. Braun"
+  },
+  "version": "11.1.0",
+  "main": "main.js",
+  "private": true,
+  "dependencies": {
+  }
+}
