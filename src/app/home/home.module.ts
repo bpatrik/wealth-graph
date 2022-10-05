@@ -5,9 +5,10 @@ import { HomeRoutingModule } from './home-routing.module';
 
 import { HomeComponent } from './home.component';
 import { SharedModule } from '../shared/shared.module';
+import {HighchartsChartModule} from "highcharts-angular";
 
 @NgModule({
   declarations: [HomeComponent],
-  imports: [CommonModule, SharedModule, HomeRoutingModule]
+    imports: [CommonModule, SharedModule, HomeRoutingModule, HighchartsChartModule]
 })
 export class HomeModule {}

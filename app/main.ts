@@ -4,7 +4,7 @@ import * as fs from 'fs';
 
 let win: BrowserWindow = null;
 const args = process.argv.slice(1),
-  serve = args.some(val => val === '--serve');
+  serve = args.some(val => val === '--serve') || true;
 
 function createWindow(): BrowserWindow {
 
@@ -12,8 +12,8 @@ function createWindow(): BrowserWindow {
 
   // Create the browser window.
   win = new BrowserWindow({
-    x: 0,
-    y: 0,
+    x: 700,
+    y: 500,
     width: size.width,
     height: size.height,
     webPreferences: {
